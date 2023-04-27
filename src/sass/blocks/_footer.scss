@@ -1,0 +1,39 @@
+.footer {
+  margin-top: 96px;
+  padding: 90px 0 80px 0;
+  background-color: black;
+  display: flex;
+  color: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &__adres {
+    margin-left: 576px;
+  }
+  &__work {
+    margin-left: 90px;
+  }
+  &__requisites {
+    margin-left: 90px;
+  }
+  &__email {
+    margin-left: 90px;
+    text-align: right;
+  }
+  &__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 90px;
+  }
+}
+.copyright {
+  margin-top: 65px;
+  font-size: 22px;
+  text-align: center;
+  color: rgba(223, 223, 223, 1);
+}

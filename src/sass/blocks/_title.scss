@@ -1,36 +1,99 @@
-.title{
-    font-weight: bold;
-    font-style: 36px;
-    line-height: 60px;
-    &_fz14 {
-        font-size: 14px;
-        line-height: 21px;
+.title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  &__section-subtitle {
+    text-align: center;
+  }
+  &_fz120 {
+    font-size: 120px;
+    font-weight: 800;
+    line-height: 120px;
+  }
+  &_fz100 {
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 120px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  &_fz96 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    color: #000000;
+  }
+  &_fz90 {
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 90px;
+  }
+  &_fz75 {
+    font-size: 75px;
+    font-weight: 800;
+    line-height: 90px;
+  }
+  &_fz72 {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 72px;
+  }
+  &_fz30 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+  }
+  &_fz26 {
+    font-size: 26px;
+    line-height: 33px;
+    margin-top: 14px;
+  }
+  &_fz23 {
+    font-size: 23px;
+    line-height: 29px;
+  }
+  &_fz22 {
+    font-size: 22px;
+    line-height: 50px;
+  }
+  &_fz21 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  &_fz20 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  &_fz19 {
+    font-size: 19px;
+    line-height: 127%;
+  }
+  &_fz17 {
+    font-size: 17px;
+    line-height: 23px;
+  }
+  &_fz16 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  &_fz15 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  &_fz12 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  &__section-title {
+    position: relative;
+    text-align: center;
+    &:before {
+      top: -6px;
+      left: 50%;
+      transform: translateX(-50%);
     }
-    &_fz16 {
-        font-size: 16px;
-        line-height: 24px;
-    } 
-    &_fz20{
-        font-size: 20px;
-        line-height: 30px;
-    }
-    &_fz36 {
-        font-size: 36px;        
-    } 
-    &_fz48 {
-        font-size: 48px;
-    }
-    &__section-title{
-        position: relative;
-        text-align: center;
-        @include before_circle;
-        &:before{
-            top: -6px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    }
-    &__section-subtitle{
-        text-align: center;
-    }
+  }
+  &__section-subtitle {
+    text-align: center;
+  }
 }
